@@ -1,6 +1,18 @@
-.table_menu {
-    background-color: lavender;
-}
-.div_header {
+body {
     background-color: lavenderblush;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(126, 196, 190);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    
+}
+
+.navbar a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #f2f2f2;
 }
