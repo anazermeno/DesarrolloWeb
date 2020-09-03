@@ -34,16 +34,22 @@ nav a{
 .center_table{
     margin-left:auto;
     margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .header{
     color: white;
 }
 
+#imagen{
+    padding-right: 30px;
+}
+
 #perfil {
     border-radius: 50%;
-    width: 230px;
-    height: 290px;
+    width: 240px;
+    height: 310px;
 }
 
 #proyectos{
