@@ -3,7 +3,7 @@ body {
     margin:0px;
 }
 
-#parte1{
+#about{
     background-color: #b56d8d;
 }
  
@@ -52,8 +52,17 @@ nav a{
     height: 310px;
 }
 
-#proyectos{
+.proyectos{
     background-color: #DEBEB1;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.seccion{
+    text-align: center;
+    color: #b56d8d;
+    border-bottom: 4px dotted #b56d8d;
 }
 
 footer{
