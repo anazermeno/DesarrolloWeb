@@ -57,7 +57,7 @@ nav a{
     height: 310px;
 }
 
-.logo, .logo_leng{
+.logo, .logo_leng, .logo_exp{
     width: 160px;
     height: 160px;
 }
@@ -102,7 +102,8 @@ nav a{
     display: flex;
     justify-content:space-evenly;
     flex-grow: 1;
-    text-align: center;   
+    text-align: center;
+    border-bottom: 5px double #f5f0f2;
 }
 
 #seccion3{
