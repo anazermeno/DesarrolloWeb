@@ -57,12 +57,12 @@ nav a{
     height: 310px;
 }
 
-.logo{
+.logo, .logo_leng{
     width: 160px;
     height: 160px;
 }
 
-#proyectos{
+#proyectos, #skills{
     background-color: #f5f0f2;
     display: flex;
     justify-content: space-evenly;
@@ -71,7 +71,7 @@ nav a{
     color: #b56d8d;
 }
 
-.proyectos_cont{
+.proyectos_cont, .skills_cont{
     background-color: #f5f0f2;
     display: flex;
     justify-content: space-evenly;
@@ -82,12 +82,12 @@ nav a{
     border-bottom: 5px double #b56d8d;
 }
 
-#seccion1{
+#seccion1, #seccion2{
     text-align: center;
     border-bottom: 4px dotted #b56d8d;
 }
 
-#skills{
+#experience{
     background-color:#b56d8d;
     color: #f5f0f2;
     display: flex;
@@ -96,7 +96,7 @@ nav a{
     text-align: center;
 }
 
-.skills_cont{
+.experience_cont{
     background-color:#b56d8d;
     color: #f5f0f2;
     display: flex;
@@ -105,7 +105,7 @@ nav a{
     text-align: center;   
 }
 
-#seccion2{
+#seccion3{
     text-align: center;
     border-bottom: 4px dotted #f5f0f2;
 }
@@ -113,7 +113,7 @@ nav a{
 .fa-instagram {
     background: none;
     color: #b56d8d;
-  }
+}
 
 footer{
     font-family: cursive;
