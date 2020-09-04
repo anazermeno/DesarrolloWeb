@@ -12,6 +12,9 @@ nav {
     background-color: #DEBEB1;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    transition: 3.0;
 }
 
 nav div {
@@ -20,6 +23,7 @@ nav div {
     padding: 10px;
     border-radius: 8px;
     color: white;
+    text-align: center;
 }
 
 nav div:hover {
@@ -34,12 +38,12 @@ nav a{
 .center_table{
     margin-left:auto;
     margin-right: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 220px;
+    padding-bottom: 220px;
 }
 
 .header{
-    color: white;
+    color: #f5f0f2;
 }
 
 #imagen{
@@ -52,23 +56,38 @@ nav a{
     height: 310px;
 }
 
+.logo{
+    width: 160px;
+    height: 160px;
+}
+
 .proyectos{
-    background-color: #DEBEB1;
+    background-color: #f5f0f2;
     display: flex;
     justify-content: space-evenly;
     flex-grow: 1;
     text-align:center;
+    color: #b56d8d;
 }
 
-.seccion{
+#seccion1{
     text-align: center;
-    color: #b56d8d;
     border-bottom: 4px dotted #b56d8d;
 }
 
-.logo{
-    width: 160px;
-    height: 160px;
+
+.skills{
+    background-color:#b56d8d;
+    color: #f5f0f2;
+    display: flex;
+    justify-content:space-evenly;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#seccion2{
+    text-align: center;
+    border-bottom: 4px dotted #f5f0f2;
 }
 
 footer{
