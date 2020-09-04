@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 
 <html>
+
     <head>
 
         <!-- Esto es lo que se verá en la pestaña del navegador -->
         <title>Ana Zermeño</title>
 
+        <meta charset="UTF-8">
+
         <!-- Se incluye la hoja con los estilos de la pagina -->
         <link href="./style.css" rel="stylesheet" type="text/css">
+
+        <!-- Libreria de iconos -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -16,7 +22,9 @@
         <nav>
             <a href="#about"><div>Home</div></a>
             <a href="#proyectos"><div>Proyectos</div></a>
-            <a href="#"><div>Galeria</div></a>
+            <a href="#skills"><div>Skills</div></a>
+            <a href="#skills"><div>Galeria</div></a>
+            <a href="#skills"><div>Resume</div></a>
         </nav>
 
         <!-- Esta division engloba la primera parte de mi pagina de Home -->
@@ -42,38 +50,58 @@
 
         <!-- Esta division contiene mis proyectos -->
         <!-- Titulo de la seccion -->
-        <div class="proyectos">
+        <div id="proyectos">
             <h2 id="seccion1">Proyectos - Grupos Estudiantiles</h2>
         </div>
 
         <!-- Aqui empiezan los proyectos -->
-        <div class="proyectos">
+        <div class="proyectos_cont">
             <div id="datascience">
                 <img src="./resources/datascience.jpeg" class="logo">
-                <h4>Data Science Club</h4>
+                <h3>Data Science Club</h3>
                 <p>Directora de Logística</p>
+                <p>2020-2021</p>
+                <a href="#" class="fa fa-instagram"></a> datascience.mty
             </div>
             <div id="saitc">
                 <img src="./resources/SAITC.png" class="logo">
-                <h4>SAITC</h4>
+                <h3>SAITC</h3>
                 <p>Directora de Marketing</p>
+                <p>2020-2021</p>
+                <a href="https://www.instagram.com/saitc.mty/" class="fa fa-instagram" target="_blank"></a> saitc.mty
             </div>
             <div id="aenay">
                 <img src="./resources/AENAY.jpeg" class="logo">
-                <h4>AENAY</h4>
+                <h3>AENAY</h3>
                 <p>Presidenta</p>
+                <p>2019-2020</p>
+                <a href="#" class="fa fa-instagram"></a> aenay.mty
             </div>
         </div>
 
         <!-- Esta división contiene mis skills -->
-        <div class="skills">
+        <div id="skills">
             <h2 id="seccion2">Skills</h2>
+        </div>
+
+
+        <div class="skills_cont">
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+                
+            </div>
         </div>
 
         <!-- Aquí va el pie de página -->
         <footer>
             <div>Ana Zermeno</div>
         </footer>
+
     </body>
 
 </html>
