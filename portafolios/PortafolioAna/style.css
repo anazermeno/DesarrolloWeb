@@ -69,6 +69,8 @@ nav a{
     flex-grow: 1;
     text-align:center;
     color: #b56d8d;
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 
 .proyectos_cont, .skills_cont{
@@ -80,6 +82,7 @@ nav a{
     color: #b56d8d;
     padding-bottom: 30px;
     border-bottom: 5px double #b56d8d;
+    padding-bottom: 150px;
 }
 
 #seccion1, #seccion2{
@@ -94,6 +97,8 @@ nav a{
     justify-content:space-evenly;
     flex-grow: 1;
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 
 .experience_cont{
@@ -104,6 +109,7 @@ nav a{
     flex-grow: 1;
     text-align: center;
     border-bottom: 5px double #f5f0f2;
+    padding-bottom: 150px;
 }
 
 #seccion3{
