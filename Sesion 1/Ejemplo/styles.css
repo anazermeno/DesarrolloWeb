@@ -1,0 +1,91 @@
+body {
+    background-color: #0197F6;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+nav {
+    background-color: black;
+    top: 0;
+    height: 100%;
+    width: 20vw;
+    position: fixed;
+    left: 0;
+}
+nav li {
+    list-style-type: none;
+    padding: 3vh 1vw;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navLinks{
+    background-color: #02182B;
+    margin: 5vh 0;
+}
+.navLinks a {
+    color:  white;
+    text-decoration: none;
+}
+
+#titleNav {
+    font-size: 30px;
+    color: white;
+    background-color: #0197F6;
+}
+
+article, header{
+    margin-left: 24vw;;
+}
+
+#home div{
+    height: 100vh;
+    padding-top: 25%;
+}
+
+#about img {
+    width: 20vw;
+}
+#about {
+    height: 100vh;
+    padding: 5%;
+}
+
+#trayectoria {
+    height: 100vh;
+    padding: 5%;
+}
+
+#momentos {
+    height: 100vh;
+    padding-top: 20%;
+}
+
+#momentos .video {
+    display: inline-block;
+    margin: 30px;
+}
+
+#adventure {
+    width: 80%;
+    height: 100vh;
+    padding-top: 25%;
+}
+
+.twitter-timeline {
+    height: 80vh;
+}
+
+footer {
+    position: fixed;
+    height: 10vh;
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+footer a {
+    color:  white;
+    text-decoration: none;
+}
